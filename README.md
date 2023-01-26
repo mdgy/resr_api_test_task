@@ -3,9 +3,9 @@
 
 Установка:
 
-Скачиваем rest_api_book_lib_docker.7z и распаковываем архив.
-В папке с распакованным файлом вызываем команду docker load -i rest_api_book_lib_docker.tar. 
-Команда для запуска: docker run -d --name rest_api_book_lib_docker -p 5000:5000 rest_api_book_lib_docker
+1. Скачиваем rest_api_book_lib_docker.7z и распаковываем архив
+2. В папке с распакованным файлом вызываем команду docker load -i rest_api_book_lib_docker.tar
+3. Команда для запуска: docker run -d --name rest_api_book_lib_docker -p 5000:5000 rest_api_book_lib_docker
 
 Функционал и требования:
 
@@ -22,12 +22,16 @@
 	"name": "Чистый код",
 	"year": 1998
 }
-где
+
+где:
+
 1. "id" - уникальный идентификатор книги
 2. "name" - название книги
 3. "author" - автор
 4. "year" - год издания
 5. "isElectronicBook" - электронное или обычное издание
+
+Все запросы необходимо отправлять на http://localhost:5000
 
 Endpoints:
 
