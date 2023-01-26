@@ -3,8 +3,8 @@
 
 Установка:
 
-Скачиваем rest_api_book_lib_docker.7z и распаковываем архив
-В папке с распакованным файлом вызываем команду docker load -i rest_api_book_lib_docker.tar
+Скачиваем rest_api_book_lib_docker.7z и распаковываем архив.
+В папке с распакованным файлом вызываем команду docker load -i rest_api_book_lib_docker.tar. 
 Команда для запуска: docker run -d --name rest_api_book_lib_docker -p 5000:5000 rest_api_book_lib_docker
 
 Функционал и требования:
@@ -14,6 +14,7 @@
 Структура Json объекта в списке книг (информация о книге):
 
 Пример:
+
 {
 	"author": "Роберт Мартин",
 	"id": 1,
